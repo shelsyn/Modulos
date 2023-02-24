@@ -1,7 +1,7 @@
 import sys
 import sqlite3
 from PyQt6.QtWidgets import (QApplication, QWidget, QLabel, QPushButton, QLineEdit)
-from modulos.last_window import last_window
+from last_window import last_window
 
 class Store(QWidget):
     def __init__(self):
